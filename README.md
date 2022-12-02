@@ -8,6 +8,7 @@ This is a repo of projects completed during 8-month Data Science/Machine Learnin
 | :---------------------- | :---------------------- | :---------------------- |
 | [Big Cities Music](big_cities_music) | Comparison of preferences of "Yandex.Music" users from Moscow and Saint-Peterburg depending on time of day (morning and evening) and weekday (Monday, Wednesday and Friday)| *pandas* |
 | [Solvency Analysis](solvency_analysis) | Analysis of factors affecting the creditworthiness of clients of some bank: number of children, family status, total income and loan purpose. | *pandas* |
+| [Real Estate Ads Analysis](real_estate_eda) | Exploratory data analysis of real estate objects advertisements in Saint-Petersburg and its neighbouring localities. | *pandas*, *matplotlib* |
 
 ## Syllabus
 
