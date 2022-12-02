@@ -1,5 +1,7 @@
 # Big Cities Music
 
+Some myths reflect reality. Others are empty stereotypes. Business must distinguish the former from the latter in order to make rational decisions. Using "Yandex Music" data, we will test hypotheses and compare the behavior of users of the two capitals.
+
 ## Objectives
 
 1. Conducting a comparative data analysis of musical preferences of "Yandex.Music" users living in Moscow and Saint-Petersburg.
