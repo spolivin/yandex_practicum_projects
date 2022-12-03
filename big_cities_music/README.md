@@ -1,6 +1,6 @@
 # Big Cities Music
 
-The comparison of Moscow and St. Petersburg is surrounded by myths. For example:
+The comparison of Moscow and St. Petersburg is surrounded by myths. For instance:
  * Moscow is a megapolis subject to the rigid rhythm of the working week;
  * St. Petersburg is a cultural capital, with its own tastes.
 
