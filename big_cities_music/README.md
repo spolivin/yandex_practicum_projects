@@ -14,7 +14,7 @@ Testing three hypotheses:
 2. On Monday morning, some genres prevail in Moscow, and others in St. Petersburg. Similarly, on Friday evening, different genres prevail — depending on the city. 
 3. Moscow and St. Petersburg prefer different genres of music. In Moscow, pop music is more often listened to, in St. Petersburg - Russian rap.
 
-## Project progress
+## Project Progress
 
 We will get data on user behavior from `yandex_music_project.csv`. Nothing is known about the quality of the data. Therefore, an inspection of the data will be needed before testing hypotheses. 
 
