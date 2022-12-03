@@ -11,7 +11,7 @@ The results of the study will be taken into account when building a credit scori
 
 ## Project Progress
 
-We will get data on bank's borrowers from `bank_clients_data.csv`. No information is provided regarding the quality of data. Thus, an inspection of data will be needed
+We will get data on bank's borrowers from `bank_clients_data.csv`. No information is given regarding the quality of data. Thus, an inspection of data will be needed
 before studying the main determinants of creditworthiness.
 
 We will conduct data preprocessing and look for ways to correct the most critical data errors. 
