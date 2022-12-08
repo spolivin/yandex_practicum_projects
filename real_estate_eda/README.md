@@ -11,7 +11,7 @@ Each real estate object is characterized by two types of features: those specifi
 2. Building an automated system that will track anomalies and detect fraudulent activities.
 3. Identifying the main determinants of real estate prices.
 
-## Project Progress
+## Project progress
 
 Data on real estate is stored in `real_estate_data.csv`. Nothing is known about the quality of data. Thus, we will need to conduct data preprocessing to check for
 potential inconveniences, inaccuracies and anomalies.
