@@ -9,7 +9,7 @@ The results of the study will be taken into account when building a credit scori
 1. Preprocessing data in order to make it appropriate for use in data analysis.
 2. Analyzing factors that may have an impact upon the ability of bank clients to repay their debt on time.
 
-## Project Progress
+## Project progress
 
 We will get data on bank's borrowers from `bank_clients_data.csv`. No information is given regarding the quality of data. Thus, an inspection of data will be needed
 before studying the main determinants of creditworthiness.
