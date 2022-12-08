@@ -12,6 +12,18 @@ customers and conclude which tariff is better.
 1. Analyzing the behavior of "Megaline" company clients.
 2. Identifying the most profitable tariff plan.
 
+## Project progress
+
+We have data on "Megaline" customers stored in five different csv-files of uncertain quality. We will need to look at the entire set of data and prepare it accordingly for the data analysis. Next, exploratory data analysis will be carried out where the profitability of each tariff plan will be computed and 
+visualized. Lastly, statistical hypotheses will be tested in order to make final conclusions.
+
+Thus, the data analysis will be conducted in four stages:
+
+1. Data overview.
+2. Data preparation.
+3. Exploratory data analysis.
+4. Hypotheses testing.
+
 ## Tariff plan description
 
 ### "Smart"
