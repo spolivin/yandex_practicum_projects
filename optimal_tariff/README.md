@@ -1,4 +1,4 @@
-# Preferrable Tariff Choice
+# Preferred Tariff Choice
 
 We act as an analyst of "Megaline" - federal mobile operator. Clients are offered two tariff plans: "Smart" and "Ultra". To adjust the advertising budget, 
 the commercial department wants to understand which tariff brings in more money. 
