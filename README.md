@@ -18,17 +18,17 @@ This is a repo of projects completed during 8-month Data Science/Machine Learnin
 - **Module 1**: ***Introduction to Data Analysis***
 
   - **Topics:** Basic Python, Data Preprocessing, Exploratory Data Analysis, Statistical Data Analysis
-  - **Libraries:** *pandas*, *numpy*, *scipy*, *matplotlib*, *seaborn*, *math*, *random*
+  - **Libraries:** *pandas*, *numpy*, *scipy*, *matplotlib*, *seaborn*
 
 - **Module 2**: ***Basics of Machine Learning***
 
-  - **Topics:** Introduction to Machine Learning, Supervised Learning (Classification, Regression), Machine Learning in Business (KPI, A/B testing)
+  - **Topics:** Introduction to Machine Learning, Supervised Learning, Machine Learning in Business
   - **Libraries:** *scikit-learn*
 
 - **Module 3**: ***Advanced Machine Learning***
-  - **Topics:** Neural Nets (NN), Natural Language Processing (NLP), Gradient Boosting/Descent, Time Series, Linear Algebra
+  - **Topics:** Neural Networks, Natural Language Processing, Gradient Boosting/Descent, Time Series, Linear Algebra
   - **Libraries:** *catboost* 
 
 - **Module 4**: ***Machine Learning for Big Data***
-  - **Topics:** Basic SQL (PostgreSQL), PySpark, Unsupervised Learning, Computer Vision (CV), Deep Learning (DL)
+  - **Topics:** Basic SQL (Postgres), PySpark, Unsupervised Learning, Computer Vision, Deep Learning
   -  **Libraries:** *keras*
