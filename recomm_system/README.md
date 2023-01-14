@@ -45,4 +45,6 @@ Hence, the process of building a recommendation system will consist of the follo
 
 *pandas*
 
+*matplotlib*
+
 *sklearn*
