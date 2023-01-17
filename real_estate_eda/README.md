@@ -53,3 +53,5 @@ The analysis is based on the following data on real estate objects:
 *pandas*
 
 *matplotlib*
+
+*seaborn*
