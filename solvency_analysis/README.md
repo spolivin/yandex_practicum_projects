@@ -39,6 +39,8 @@ The analysis is based on the following data on clients of some bank:
 
 ## Libraries
 
+*numpy*
+
 *pandas*
 
 *matplotlib*
