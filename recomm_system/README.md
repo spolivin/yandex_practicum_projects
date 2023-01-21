@@ -43,10 +43,12 @@ Hence, the process of building a recommendation system will consist of the follo
 
 ## Libraries
 
+*sklearn*
+
+*numpy*
+
 *pandas*
 
 *matplotlib*
 
 *seaborn*
-
-*sklearn*
