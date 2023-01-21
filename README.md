@@ -10,7 +10,7 @@ This is a repo of projects completed during 8-month Data Science/Machine Learnin
 | [Borrowers Solvency Study](solvency_analysis) | Analysis of factors affecting the creditworthiness of clients of some bank: number of children, family status, total income and loan purpose.| *numpy*, *pandas*, *matplotlib*, *seaborn*|
 | [Real Estate Ads Study](real_estate_eda) | Exploratory data analysis of real estate objects advertisements in Saint-Petersburg and its neighbouring localities.| *pandas*, *matplotlib*, *seaborn*|
 | [Preferred Tariff Choice](optimal_tariff) | Optimal choice of the most preferable tariff plan from the menu offered by a mobile network operator based on its users behavior patterns.| *numpy*, *pandas*, *scipy*, *matplotlib*, *seaborn*|
-| [Computer Games Market Analysis](computer_games_analysis) | Identification of profit-enhancing patterns in data and making product-oriented forecasts.| *numpy*, *pandas*, *scipy*, *matplotlib*, *seaborn*|
+| [Computer Games Market Analysis](computer_games_analysis) | Identification of profit-enhancing patterns in data and making product-oriented forecasts.| *numpy*, *pandas*, *scipy*, *matplotlib*, *seaborn*, *math*|
 | [Tariff Recommendation System](recomm_system) | Building a recommendation system that would suggest tariffs to clients of a mobile operator.| *sklearn*, *numpy*, *pandas*, *matplotlib*, *seaborn*|
 
 ## Syllabus
