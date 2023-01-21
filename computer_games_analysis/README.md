@@ -48,3 +48,5 @@ Thus, the results of the study will be obtained during the following stages:
 *matplotlib*
 
 *seaborn*
+
+*math*
