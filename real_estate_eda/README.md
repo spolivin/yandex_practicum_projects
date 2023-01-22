@@ -50,6 +50,8 @@ The analysis is based on the following data on real estate objects:
 
 ## Libraries
 
+*numpy*
+
 *pandas*
 
 *matplotlib*
