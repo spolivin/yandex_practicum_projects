@@ -14,6 +14,7 @@ This is a repo of projects completed during 8-month Data Science/Machine Learnin
 | [Tariff Recommendation System](recomm_system) | Building a recommendation system that would suggest tariffs to clients of a mobile operator.| *sklearn*, *numpy*, *pandas*, *matplotlib*, *seaborn*|
 | [Customer Churn](churn_prediction) | Building a system capable of predicting whether a client will churn from the bank or not in the near future.| *sklearn*, *imblearn*, *numpy*, *pandas*, *matplotlib*, *seaborn*, *re*|
 | [Oil Well Location Choice](location_choice) | Building an ML model capable of determining the most optimal location for drilling a new oil well.| *sklearn*, *numpy*, *pandas*, *matplotlib*, *seaborn*|
+| [Gold Recovery Prediction[Real project]](gold_recovery) | Developing an ML model prototype for predicting recovery rate of gold from gold-bearing ore.| *sklearn*, *numpy*, *pandas*, *matplotlib*, *seaborn*|
 
 ## Syllabus
 
