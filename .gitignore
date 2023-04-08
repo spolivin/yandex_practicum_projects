@@ -130,3 +130,9 @@ dmypy.json
 
 # Datasets
 *.csv
+
+# Catboost files
+catboost_info/
+
+# Models
+*.joblib
