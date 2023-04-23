@@ -18,6 +18,7 @@ This is a repo of projects completed during 8-month Data Science/Machine Learnin
 | [Clients' Personal Data Protection](personal_data_protection) | Developing a data obfuscation algorithm such that it would make it difficult to recover personal information from it.| `sklearn` `numpy` `pandas` `matplotlib` `seaborn`|
 | [Car Prices Prediction](autos_grad_boost) | Building an optimal ML model capable of determining the prices of automobile vehicles.| `sklearn` `catboost` `xgboost` `lightgbm` `numpy` `pandas` `matplotlib` `seaborn` `re`|
 | [Forecasting Taxi Orders](taxi_ts_prediction) | Developing a time-series model that is capable of forecasting hourly taxi orders to the airport.| `sklearn` `catboost` `xgboost` `lightgbm` `numpy` `pandas` `matplotlib` `seaborn` `statsmodels` `itertools`|
+| [Transformers-based Sentiment Analysis[GPU]](bert_toxic_comm) | Classification of commentaries into positive and toxic ones using BERT neural network along with GPU support.| `torch` `transformers` `tqdm` `sklearn` `imblearn` `catboost` `xgboost` `lightgbm` `numpy` `pandas` `matplotlib` `seaborn`|
 
 ## Syllabus
 
@@ -33,7 +34,7 @@ This is a repo of projects completed during 8-month Data Science/Machine Learnin
 
 - **Module 3**: ***Advanced Machine Learning***
   - **Topics:** Transformers, Natural Language Processing, Gradient Boosting/Descent, Time Series, Linear Algebra
-  - **Libraries:** `catboost` `lightgbm` `xgboost` `statsmodels` `re` `pymystem3` `nltk` `transformers` `pytorch` 
+  - **Libraries:** `catboost` `lightgbm` `xgboost` `statsmodels` `re` `pymystem3` `nltk` `transformers` `pytorch` `tqdm`
 
 - **Module 4**: ***Machine Learning for Big Data***
   - **Topics:** Basic SQL (Postgres), PySpark, Unsupervised Learning, Computer Vision, Deep Learning
