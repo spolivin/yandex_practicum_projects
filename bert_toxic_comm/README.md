@@ -1,6 +1,6 @@
 # Transformers-based Sentiment Analysis[GPU]
 
-Online store "Wikiship" launches a new service. Users are now given the opportunity to independently edit and supplement product descriptions, as is the case in wiki-communities. In other words, customers can offer their own edits and comment on the changes of others. The store needs a tool that will search for toxic comments and send them for moderation. The objective is to develop and train a model to classify comments into positive and negative ones so that the value of *F1* metric would be higher than 0.75. We have at our disposal a set of data marked up by the toxicity of edits.
+Online store "Wikishop" launches a new service. Users are now given the opportunity to independently edit and supplement product descriptions, as is the case in wiki-communities. In other words, customers can offer their own edits and comment on the changes of others. The store needs a tool that will search for toxic comments and send them for moderation. The objective is to develop and train a model to classify comments into positive and negative ones so that the value of *F1* metric would be higher than 0.75. We have at our disposal a set of data marked up by the toxicity of edits.
 
 ## Objectives
 
