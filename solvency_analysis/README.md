@@ -37,6 +37,10 @@ The analysis is based on the following data on clients of some bank:
 - Monthly income
 - Loan purpose
 
+## Note
+
+Helpful functions that were used in this projects can be found in `banktools.py` module.
+
 ## Libraries
 
 `numpy` `pandas` `matplotlib` `seaborn`
