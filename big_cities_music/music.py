@@ -7,7 +7,7 @@ patterns better.
 from __future__ import division, print_function, absolute_import
 
 __all__ = ["compute_missing", "number_tracks", "genre_weekday"]
-__version__ = "0.1"
+__version__ = "0.2"
 __author__ = "Sergey Polivin"
 
 from typing import Optional
@@ -24,7 +24,7 @@ def compute_missing(data: pd.DataFrame, display_dtypes: Optional[bool]) -> pd.Da
             of columns with missing values.
 
     Returns:
-        pandasd.DataFrame object with the computed number
+        pandas.DataFrame object with the computed number
         and share of missing values (and optionally
         column data types) in a DataFrame.
     """
@@ -68,7 +68,7 @@ def number_tracks(day: str, city: str, data: pd.DataFrame) -> int:
     return track_list_count
 
 
-def genre_weekday(data: pd.DataFrame, day: str, time1: str, time2: str) -> pd.Series:
+def genre_weekday(data: pd.DataFrame, day: str, time1: str, time2: str) -> pd.Series[int]:
     """Returns a rating of 10 of the most popular music genres.
 
     Accumulates information about top-10 most popular genres
