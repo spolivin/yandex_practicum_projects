@@ -37,6 +37,10 @@ The analysis is based on the following data on track plays in "Yandex.Music" ser
 - Day of track play
 - Time of track play
 
+## Note
+
+All auxiliary user-defined functions are located in `music.py` module.
+
 ## Libraries
 
 `numpy` `pandas` `matplotlib` `seaborn`
