@@ -3,6 +3,19 @@ tools for categorizing bank clients and recovering hidden patterns
 from data.
 """
 
+from __future__ import division, print_function, absolute_import
+
+__all__ = [
+    "categorize_purpose",
+    "categorize_family_status",
+    "show_solvency_by_cat",
+    "plot_solvency_by_cat",
+]
+__version__ = "0.1"
+__author__ = "Sergey Polivin"
+
+from typing import Any
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -77,14 +90,14 @@ def show_solvency_by_cat(feature: str, data: pd.DataFrame) -> pd.DataFrame:
     return solvency_info
 
 
-def plot_solvency_by_cat(feature: str, data: pd.DataFrame) -> None:
-    """Plots solvency statistics for borrowers by category of `feature`.
+def plot_solvency_by_cat(feature: str, data: pd.DataFrame) -> Any:
+    """Plots solvency statistics for borrowers by category of feature.
 
     Creates two plots:
         - Left one depicts the number of borrowers who repayed
-    and did not repayed the loan for each category within `feature`.
+    and did not repayed the loan for each category within feature.
         - Right plot shows debt repayment ratios for each category of
-        clients within `feature`.
+        clients within feature.
 
     Args:
         feature: Characteristic of borrowers.
