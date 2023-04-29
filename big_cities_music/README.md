@@ -39,10 +39,4 @@ The analysis is based on the following data on track plays in "Yandex.Music" ser
 
 ## Libraries
 
-*numpy*
-
-*pandas*
-
-*matplotlib*
-
-*seaborn*
+`numpy` `pandas` `matplotlib` `seaborn`
