@@ -1,6 +1,6 @@
 """ToolKit module. 
 
-This module contains useful Data Science/Machine Learning functions.
+This module contains useful and frequently used Data Science/Machine Learning functions.
 """
 
 from __future__ import division, print_function, absolute_import

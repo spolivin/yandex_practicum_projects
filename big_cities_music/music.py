@@ -1,4 +1,5 @@
-"""This module contains functions for analyzing music data.
+"""This module contains functions for analyzing music data
+for "Big Cities Music" project.
 
 The module provides functions for understanding musical data 
 patterns better.

@@ -1,6 +1,6 @@
 """This module contains useful data analysis and visualization
 tools for categorizing bank clients and recovering hidden patterns
-from data.
+from data for "Borrowers Solvency Study" project.
 """
 
 from __future__ import division, absolute_import
