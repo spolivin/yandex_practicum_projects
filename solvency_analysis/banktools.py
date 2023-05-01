@@ -3,15 +3,8 @@ tools for categorizing bank clients and recovering hidden patterns
 from data.
 """
 
-from __future__ import division, print_function, absolute_import
+from __future__ import division, absolute_import
 
-__all__ = [
-    "categorize_purpose",
-    "categorize_family_status",
-    "show_solvency_by_cat",
-    "plot_solvency_by_cat",
-]
-__version__ = "0.1"
 __author__ = "Sergey Polivin"
 
 from typing import Any
