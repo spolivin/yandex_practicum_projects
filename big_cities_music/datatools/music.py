@@ -1,12 +1,20 @@
-"""This module contains functions for analyzing music data
-for "Big Cities Music" project.
+"""
+This module provides functions for better understanding 
+the behavioral patterns of "Yandex.Music" users.
 
-It provides functions for understanding musical data 
-patterns better.
+Specifically, additional functions that are hereby introduced
+deal with: 
+
+* Determining the popularity of music tracks in a specific 
+    city/weekday.
+* Conducting genre-specific popularity analysis. 
+
 """
 
 from __future__ import division, print_function, absolute_import
 
+__all__ = ["number_tracks", "genre_weekday"]
+__version__ = 0.1
 __author__ = "Sergey Polivin"
 
 from typing import Literal
@@ -42,25 +50,31 @@ def number_tracks(
 
 
 def genre_weekday(
-    data: pd.DataFrame, day: Literal["Monday", "Friday"], time1: str, time2: str
+    data: pd.DataFrame,
+    day: Literal["Monday", "Friday"],
+    time_start: str = "00:00",
+    time_end: str = "23:59",
+    include_bounds: Literal["neither", "both", "left", "right"] = "neither",
 ) -> pd.Series:
-    """Returns a rating of 10 of the most popular music genres.
-
-    Accumulates information about top-10 most popular genres
+    """
+    Returns a rating of top-10 most popular genres
     on a given day at a given time.
 
     Args:
         data: DataFrame with information on musical preferences.
         day: Name of a weekday.
-        time1: Lower bound of a time period in [hh:mm] format.
-        time2: Upper bound of a time period in [hh:mm] format.
+        time_start: Lower bound of a time period in "hh:mm" format.
+        time_end: Upper bound of a time period in "hh:mm" format.
+        include_bounds: Indicator of inclusion of time interval bounds.
 
     Returns:
         pandas.Series object mapping top-10 most popular music
         genres to their corresponding track plays numbers.
     """
     genre_df = data[data["day"] == day]
-    genre_df = genre_df[genre_df["time"].between(time1, time2, inclusive="neither")]
+    genre_df = genre_df[
+        genre_df["time"].between(time_start, time_end, inclusive=include_bounds)
+    ]
 
     # Compiling a rating of the most popular genres
     genre_df_top_10 = (
