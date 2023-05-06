@@ -55,12 +55,4 @@ If the user spoke for only 1 second, the whole minute is counted in the tariff;
 
 ## Libraries
 
-*numpy*
-
-*pandas*
-
-*scipy*
-
-*matplotlib*
-
-*seaborn*
+`numpy` `pandas` `scipy` `matplotlib` `seaborn`
