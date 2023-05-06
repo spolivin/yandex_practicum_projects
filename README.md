@@ -1,6 +1,20 @@
 # Repository for "Data Science Specialist" Specialization (Yandex Practicum)
 
-This is a repo of projects completed during 8-month Data Science/Machine Learning training program at Yandex Practicum. 
+This is a repo of projects completed during 8-month DS/ML/NLP/CV/DL training program at "Yandex Practicum".
+
+Each project is assigned with its own designated folder containing all related files. Due to the exclusivity of the materials provided during the course, it is forbidden to publish datasets used in the projects but, however, all *Jupyter Notebook* files which contain the solution of the projects do include all explanations as well as data processing results in the cells executed.
+
+## Folder structure
+
+The project folders are generally characterized by the following structure:
+
+```
+|-- [project_folder_name]
+    |-- README.md
+    |-- [project_name].ipynb
+```
+* `README.md` - *Markdown* file containing the description of the project;
+* `*.ipynb` - *Jupyter Notebook* file storing the solution of the project.
 
 ## Projects
 
@@ -37,5 +51,5 @@ This is a repo of projects completed during 8-month Data Science/Machine Learnin
   - **Libraries:** `catboost` `lightgbm` `xgboost` `statsmodels` `re` `pymystem3` `nltk` `transformers` `pytorch` `tqdm`
 
 - **Module 4**: ***Machine Learning for Big Data***
-  - **Topics:** Basic SQL (Postgres), PySpark, Unsupervised Learning, Computer Vision, Deep Learning
+  - **Topics:** SQL (Postgres), PySpark, Unsupervised Learning, Computer Vision, Deep Learning
   -  **Libraries:** `keras`
