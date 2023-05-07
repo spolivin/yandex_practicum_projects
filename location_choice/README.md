@@ -41,12 +41,4 @@ The exploration data is contained in three *csv*-files for each of the three reg
 
 ## Libraries
 
-*sklearn*
-
-*numpy*
-
-*pandas*
-
-*matplotlib*
-
-*seaborn*
+`sklearn` `numpy` `pandas` `matplotlib` `seaborn`
