@@ -39,12 +39,4 @@ The data are indexed by the date and time of obtaining the information (`date` f
 
 ## Libraries
 
-*sklearn*
-
-*numpy*
-
-*pandas*
-
-*matplotlib*
-
-*seaborn*
+`sklearn` `numpy` `pandas` `matplotlib` `seaborn`
