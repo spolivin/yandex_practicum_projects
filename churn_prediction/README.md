@@ -35,16 +35,4 @@ Thus, exploring and modeling of the behavior of the bank's customers will be car
 
 ## Libraries
 
-*sklearn*
-
-*imblearn*
-
-*numpy*
-
-*pandas*
-
-*matplotlib*
-
-*seaborn*
-
-*re*
+`sklearn` `imblearn` `numpy` `pandas` `matplotlib` `seaborn` `re`
