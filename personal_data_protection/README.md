@@ -28,12 +28,4 @@ The data is contained in the `insurance.csv` file. The characteristics of client
 
 ## Libraries
 
-*sklearn*
-
-*numpy*
-
-*pandas*
-
-*matplotlib*
-
-*seaborn*
+`sklearn` `numpy` `pandas` `matplotlib` `seaborn`
