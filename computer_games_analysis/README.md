@@ -39,12 +39,4 @@ Thus, the results of the study will be obtained during the following stages:
 
 ## Libraries
 
-*numpy*
-
-*pandas*
-
-*scipy*
-
-*matplotlib*
-
-*seaborn*
+`numpy` `pandas` `scipy` `matplotlib` `seaborn`
