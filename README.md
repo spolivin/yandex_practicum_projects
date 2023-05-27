@@ -48,8 +48,8 @@ The project folders are generally characterized by the following structure:
 
 - **Module 3**: ***Advanced Machine Learning***
   - **Topics:** Transformers, Natural Language Processing, Gradient Boosting/Descent, Time Series, Linear Algebra
-  - **Libraries:** `catboost` `lightgbm` `xgboost` `statsmodels` `re` `pymystem3` `nltk` `transformers` `pytorch` `tqdm`
+  - **Libraries:** `catboost` `lightgbm` `xgboost` `statsmodels` `re` `pymystem3` `nltk` `transformers` `torch` `tqdm`
 
 - **Module 4**: ***Machine Learning for Big Data***
   - **Topics:** SQL (Postgres), PySpark, Unsupervised Learning, Computer Vision, Deep Learning
-  -  **Libraries:** `keras`
+  -  **Libraries:** `tensorflow.keras` `pyspark` `PIL` `cv2`
