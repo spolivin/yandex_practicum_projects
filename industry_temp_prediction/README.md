@@ -4,7 +4,7 @@ Steel works is in the process of finding ways to optimize its production costs. 
 
 ## Objectives
 
-1. Optimization of production by reducing the amount of electricity consumed.
+1. Optimization of production by reducing the amount of consumed electricity.
 2. Building a predictive model for determining the steel temperature.
 3. Achieving the target values of the quality metric.
 
