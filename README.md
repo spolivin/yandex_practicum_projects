@@ -34,6 +34,7 @@ The project folders are generally characterized by the following structure:
 | [Forecasting Taxi Orders](taxi_ts_prediction) | Developing a time-series model that is capable of forecasting hourly taxi orders to the airport.| `sklearn` `catboost` `xgboost` `lightgbm` `numpy` `pandas` `matplotlib` `seaborn` `statsmodels` `itertools`|
 | [Transformers-based Sentiment Analysis[GPU]](bert_toxic_comm) | Classification of commentaries into positive and toxic ones using *BERT* language model along with *GPU* support.| `torch` `transformers` `tqdm` `sklearn` `imblearn` `catboost` `xgboost` `lightgbm` `numpy` `pandas` `matplotlib` `seaborn`|
 | [CV-based People's Age Determination[GPU]](resnet_age) | Building a neural net model capable of determining a person's age based on their photos.| `tensorflow.keras` `PIL` `numpy` `pandas` `matplotlib` `seaborn`|
+| [Production Costs Optimization[Diploma project]](industry_temp_prediction) | Developing a prototype of an ML model that will predict a temperature of steel.| `matplotlib` `numpy` `pandas` `seaborn` `sklearn` `catboost` `xgboost` `lightgbm`|
 
 ## Syllabus
 
