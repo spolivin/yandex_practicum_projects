@@ -1,11 +1,8 @@
 # Preferred Tariff Choice
 
-We act as an analyst of "Megaline" - federal mobile operator. Clients are offered two tariff plans: "Smart" and "Ultra". To adjust the advertising budget, 
-the commercial department wants to understand which tariff brings in more money. 
+We act as an analyst of "Megaline" - federal mobile operator. Clients are offered two tariff plans: "Smart" and "Ultra". In order to adjust the advertising budget, the commercial department wants to understand which tariff brings in more money. 
 
-We will have to make a preliminary analysis of tariffs on a small sample of customers. We have the data of 500 Megaline users at our disposal: 
-who they are, where they come from, what tariff they use, how many calls and messages each sent in 2018. It is necessary to analyze the behavior of 
-customers and conclude which tariff is better.
+We will have to make a preliminary analysis of tariffs based on a small sample of customers. We have the data of 500 Megaline users at our disposal: who they are, where they come from, what tariff they use, how many calls and messages each sent in 2018. It is necessary to analyze the behavior of customers and conclude which tariff is better.
 
 ## Objectives
 
@@ -14,15 +11,14 @@ customers and conclude which tariff is better.
 
 ## Project progress
 
-We have data on "Megaline" customers stored in five different csv-files of uncertain quality. We will need to look at the entire set of data and prepare it accordingly for the data analysis. Next, exploratory data analysis will be carried out where the profitability of each tariff plan will be computed and 
-visualized. Lastly, statistical hypotheses will be tested in order to make final conclusions.
+We have data on "Megaline" customers stored in five different datasets of uncertain quality. We will need to look at the entire set of data and prepare it accordingly for the data analysis. Next, exploratory data analysis will be carried out where the profitability of each tariff plan will be computed and visualized. Lastly, statistical hypotheses will be tested in order to make final conclusions.
 
 Thus, the data analysis will be conducted in four stages:
 
 1. Data overview.
 2. Data preparation.
 3. Exploratory data analysis.
-4. Hypotheses testing.
+4. Statistical hypotheses testing.
 
 ## Tariff plan description
 
@@ -45,14 +41,10 @@ If the user spoke for only 1 second, the whole minute is counted in the tariff;
   - Message - 1 ruble;
   - 1GB of internet traffic - 150 rubles.
 
-## Data
+## Datasets
 
-1. Data on users' calls => `calls.csv`
-2. Data on users' internet sessions => `internet.csv`
-3. Data on messages sent by users => `messages.csv`
-4. Data on users => `users.csv`
-5. Data on tariff plans => `tariffs.csv`
-
-## Libraries
-
-`numpy` `pandas` `scipy` `matplotlib` `seaborn`
+1. Users' calls.
+2. Users' internet sessions.
+3. Messages sent by users.
+4. Users themselves.
+5. Tariff plans.
