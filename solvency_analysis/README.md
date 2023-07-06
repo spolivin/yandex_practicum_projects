@@ -11,10 +11,8 @@ The results of the study will be taken into account when building a credit scori
 
 ## Project progress
 
-We will get data on bank's borrowers from `bank_clients_data.csv`. No information is given regarding the quality of data. Thus, an inspection of data will be needed
-before studying the main determinants of creditworthiness.
-
-We will conduct data preprocessing and look for ways to correct the most critical data errors. 
+No information is given regarding the quality of data. Thus, an inspection of data will be needed
+before studying the main determinants of creditworthiness. We will conduct data preprocessing and look for ways to correct the most critical data errors. 
 
 The study will be carried out in three stages:
 
@@ -24,7 +22,7 @@ The study will be carried out in three stages:
 
 ## Data
 
-The analysis is based on the following data on clients of some bank:
+The analysis is based on the following features of clients of some bank:
 
 - Number of children
 - Number of days being employed
@@ -36,7 +34,3 @@ The analysis is based on the following data on clients of some bank:
 - Binary indicator of owing a debt
 - Monthly income
 - Loan purpose
-
-## Libraries
-
-`numpy` `pandas` `matplotlib` `seaborn`
