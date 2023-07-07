@@ -20,13 +20,13 @@ The project folders are generally characterized by the following structure:
 
 | Project name | Description | Libraries used | 
 | :---------------------- | :---------------------- | :---------------------- |
-| [Big Cities Music](big_cities_music) | Comparison of preferences of "Yandex.Music" users from Moscow and Saint-Peterburg depending on time of day (morning and evening) and weekday (Monday, Wednesday and Friday).| `numpy` `pandas` `matplotlib` `seaborn`|
-| [Borrowers Solvency Study](solvency_analysis) | Analysis of factors affecting the creditworthiness of clients of some bank: number of children, family status, total income and loan purpose.| `numpy` `pandas` `matplotlib` `seaborn`|
-| [Real Estate Ads Study](real_estate_eda) | Exploratory data analysis of real estate objects advertisements in Saint-Petersburg and its neighbouring localities.| `numpy` `pandas` `matplotlib` `seaborn`|
-| [Preferred Tariff Choice](optimal_tariff) | Optimal choice of the most preferable tariff plan from the menu offered by a mobile network operator based on its users behavior patterns.| `numpy` `pandas` `scipy` `matplotlib` `seaborn`|
-| [Computer Games Market Analysis](computer_games_analysis) | Identification of profit-enhancing patterns in data and making product-oriented forecasts.| `numpy` `pandas` `scipy` `matplotlib` `seaborn`|
-| [Tariff Recommendation System](recomm_system) | Building a recommendation system that would suggest tariffs to clients of a mobile operator.| `sklearn` `numpy` `pandas` `matplotlib` `seaborn`|
-| [Customer Churn](churn_prediction) | Building a system capable of predicting whether a client will churn from the bank or not in the near future.| `sklearn` `imblearn` `numpy` `pandas` `matplotlib` `seaborn` `re`|
+| [Big Cities Music](big_cities_music) | Comparison of preferences of "Yandex.Music" users from Moscow and Saint-Peterburg depending on time of day (morning and evening) and weekday (Monday, Wednesday and Friday).| `typing` `matplotlib` `numpy` `pandas` `seaborn` `IPython`|
+| [Borrowers Solvency Study](solvency_analysis) | Analysis of factors affecting the creditworthiness of clients of some bank: number of children, family status, total income and loan purpose.| `typing` `matplotlib` `numpy` `pandas` `seaborn` `IPython`|
+| [Real Estate Ads Study](real_estate_eda) | Exploratory data analysis of real estate objects advertisements in Saint-Petersburg and its neighbouring localities.| `warnings` `typing` `matplotlib` `numpy` `pandas` `seaborn` `IPython`|
+| [Preferred Tariff Choice](optimal_tariff) | Optimal choice of the most preferable tariff plan from the menu offered by a mobile network operator based on its users behavior patterns.| `matplotlib` `numpy` `pandas` `seaborn` `IPython` `scipy`|
+| [Computer Games Market Analysis](computer_games_analysis) | Identification of profit-enhancing patterns in data and making product-oriented forecasts.| `warnings` `math` `typing` `matplotlib` `numpy` `pandas` `seaborn` `IPython` `scipy`|
+| [Tariff Recommendation System](recomm_system) | Building a recommendation system that would suggest tariffs to clients of a mobile operator.| `itertools` `pprint` `typing` `matplotlib` `numpy` `pandas` `seaborn` `IPython` `sklearn`|
+| [Customer Churn](churn_prediction) | Building a system capable of predicting whether a client will churn from the bank or not in the near future.| `itertools` `re` `pprint` `typing` `matplotlib` `numpy` `pandas` `seaborn` `imblearn` `IPython` `sklearn`|
 | [Oil Well Location Choice](location_choice) | Building an ML model capable of determining the most optimal location for drilling a new oil well.| `sklearn` `numpy` `pandas` `matplotlib` `seaborn`|
 | [Gold Recovery Prediction[Real project]](gold_recovery) | Developing an ML model prototype for predicting recovery rate of gold from gold-bearing ore.| `sklearn` `numpy` `pandas` `matplotlib` `seaborn`|
 | [Clients' Personal Data Protection](personal_data_protection) | Developing a data obfuscation algorithm such that it would make it difficult to recover personal information from it.| `sklearn` `numpy` `pandas` `matplotlib` `seaborn`|
