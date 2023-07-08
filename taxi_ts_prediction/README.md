@@ -27,26 +27,3 @@ Thus, the results will be obtained during the following steps:
 3. **CatBoostRegressor**
 4. **XGBRegressor**
 5. **LGBMRegressor**
-
-
-## Libraries
-
-*sklearn*
-
-*catboost*
-
-*xgboost*
-
-*lightgbm*
-
-*numpy*
-
-*pandas*
-
-*matplotlib*
-
-*seaborn*
-
-*statsmodels*
-
-*itertools*
