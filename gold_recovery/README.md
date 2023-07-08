@@ -1,6 +1,6 @@
 # Gold Recovery Prediction[Real project]
 
-The company that provided the project engages in developing solutions to achieve the efficiency of industrial enterprises. As data scientists, we have been tasked with preparing a prototype of a machine learning model that will have to predict the recovery coefficient of gold from gold-bearing ore using data on the parameters of extraction and purification. The model will help to optimize production so as not to launch an enterprise with unprofitable characteristics.
+The company that provided the project engages in developing solutions to achieve the efficiency of industrial enterprises. As data scientists, we have been tasked with developing a prototype of a machine learning model that will be able to predict the recovery coefficient of gold from gold-bearing ore using data on the parameters of extraction and purification. The model will help to optimize production so as not to launch an enterprise with unprofitable characteristics.
 
 ## Objectives
 
@@ -36,7 +36,3 @@ Data provided for the project are stored in the following three `csv`-files:
 ## Note
 
 The data are indexed by the date and time of obtaining the information (`date` feature), as a result of which the neighboring parameters are often similar. Some parameters are not available because they are measured and/or calculated much later. Because of this, some features that may be in the training set are missing in the test set. Besides, there are no target features in the test set.
-
-## Libraries
-
-`sklearn` `numpy` `pandas` `matplotlib` `seaborn`
