@@ -24,8 +24,4 @@ Thus, the results of the study will be obtained as a result of completing the fo
 
 ## Data 
 
-The data is contained in the `insurance.csv` file. The characteristics of clients include the gender, age and salary of the insured persons, as well as the number of their family members. The target feature will be the number of insurance payments to the client over the past 5 years.
-
-## Libraries
-
-`sklearn` `numpy` `pandas` `matplotlib` `seaborn`
+The data contains information about traits of a company's customers. The characteristics of clients include the gender, age and salary of the insured persons, as well as the number of their family members. The target feature will be the number of insurance payments to the client over the past 5 years.
