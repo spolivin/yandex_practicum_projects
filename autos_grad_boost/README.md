@@ -35,23 +35,3 @@ Thus, the results of the work will be obtained during the following stages:
 ## Note
 
 After running the code in `autos_price_boost.ipynb`, a file `final_model_trained.joblib` will be created and saved in the working directory. The file contains the chosen most optimal model that has already been trained. The model can thus already be used for prediction.
-
-## Libraries
-
-*sklearn*
-
-*catboost*
-
-*xgboost*
-
-*lightgbm*
-
-*numpy*
-
-*pandas*
-
-*matplotlib*
-
-*seaborn*
-
-*re*
