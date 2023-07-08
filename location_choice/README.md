@@ -38,7 +38,3 @@ The exploration data is contained in three *csv*-files for each of the three reg
 * `geo_data_0.csv` => **Region #1**
 * `geo_data_1.csv` => **Region #2**
 * `geo_data_2.csv` => **Region #3**
-
-## Libraries
-
-`sklearn` `numpy` `pandas` `matplotlib` `seaborn`
