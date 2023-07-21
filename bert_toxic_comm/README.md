@@ -37,29 +37,3 @@ Thus, the goals of the project will be realized as a result of the following ste
 ## Note
 
 The project was carried out using *BERT* neural net, the creation of embeddings with which is a computationally expensive process in terms of the number of calculations that need to be performed per unit of time. Therefore, for the fastest code execution, it is recommended to use *GPU* (for example, free, but limited, *GPU* on the [Google Colab](https://colab.research.google.com/)). The code was written in such a way so that running the code on both *CPU* and *GPU* would be possible.
-
-## Libraries
-
-`torch`
-
-`transfomers`
-
-`tqdm`
-
-`sklearn`
-
-`imblearn`
-
-`catboost`
-
-`xgboost`
-
-`lightgbm`
-
-`numpy`
-
-`pandas`
-
-`matplotlib`
-
-`seaborn`
