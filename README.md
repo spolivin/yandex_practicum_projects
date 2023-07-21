@@ -32,9 +32,9 @@ The project folders are generally characterized by the following structure:
 | [Clients' Personal Data Protection](personal_data_protection) | Developing a data obfuscation algorithm such that it would make it difficult to recover personal information from it.| `typing` `matplotlib` `numpy` `pandas` `seaborn` `IPython` `sklearn`|
 | [Car Prices Prediction](autos_grad_boost) | Building an optimal ML model capable of determining the prices of automobile vehicles.| `re` `sys` `time` `warnings` `pprint` `typing` `matplotlib` `numpy` `pandas` `seaborn` `catboost` `IPython` `joblib` `lightgbm` `sklearn` `xgboost`|
 | [Forecasting Taxi Orders](taxi_ts_prediction) | Developing a time-series model that is capable of forecasting hourly taxi orders to the airport.| `itertools` `time` `typing` `matplotlib` `numpy` `pandas` `seaborn` `catboost` `IPython` `lightgbm` `sklearn` `statsmodels` `xgboost`|
-| [Transformers-based Sentiment Analysis[GPU]](bert_toxic_comm) | Classification of commentaries into positive and toxic ones using *BERT* language model along with *GPU* support.| `torch` `transformers` `tqdm` `sklearn` `imblearn` `catboost` `xgboost` `lightgbm` `numpy` `pandas` `matplotlib` `seaborn`|
-| [CV-based People's Age Determination[GPU]](resnet_age) | Building a neural net model capable of determining a person's age based on their photos.| `tensorflow.keras` `PIL` `numpy` `pandas` `matplotlib` `seaborn`|
-| [Production Costs Optimization[Diploma project]](industry_temp_prediction) | Developing a prototype of an ML model that will predict a temperature of steel.| `matplotlib` `numpy` `pandas` `seaborn` `sklearn` `catboost` `xgboost` `lightgbm`|
+| [Transformers-based Sentiment Analysis[GPU]](bert_toxic_comm) | Classification of commentaries into positive and toxic ones using *BERT* language model along with *GPU* support.| `time` `pprint` `typing` `matplotlib` `numpy` `pandas` `seaborn` `torch` `transformers` `catboost` `imblearn` `lightgbm` `sklearn` `tqdm` `xgboost`|
+| [CV-based People's Age Determination[GPU]](resnet_age) | Building a neural net model capable of determining a person's age based on their photos.| `os` `typing` `matplotlib` `numpy` `pandas` `seaborn` `IPython` `PIL` `tensorflow.keras`|
+| [Production Costs Optimization[Diploma project]](industry_temp_prediction) | Developing a prototype of an ML model that will predict a temperature of steel.| `os` `pprint` `typing` `matplotlib` `numpy` `pandas` `seaborn` `catboost` `IPython` `lightgbm` `sklearn` `xgboost`|
 
 ## Syllabus
 
