@@ -110,11 +110,11 @@ The best model is a Gradient Boosting model from `xgboost` library with the foll
 
 As far as the recommendations for improving the model are concerned, the following points should be noted:
 
-    1. It would be possible to try to exclude from the model the factors with the smallest scores in accordance with the calculated feature importances. The metric will not change much, but we will get rid of factors whose effects are not statistically significant.
+1. It would be possible to try to exclude from the model the factors with the smallest scores in accordance with the calculated feature importances. The metric will not change much, but we will get rid of factors whose effects are not statistically significant.
     
-    2. We could try to experiment further with the values of hyperparameters when searching through the grid. We can probably find better combinations. We can immediately increase the number of iterations of `n_iter` for `RandomizedSearchCV`.
+2. We could try to experiment further with the values of hyperparameters when searching through the grid. We can probably find better combinations. We can immediately increase the number of iterations of `n_iter` for `RandomizedSearchCV`.
     
-    3. Since we are dealing with multicollinearity, we could also try lots of other models here, including neural networks (for example, `MLPRegressor` from `sklearn`).
+3. Since we are dealing with multicollinearity, we could also try lots of other models here, including neural networks (for example, `MLPRegressor` from `sklearn`).
     
-    4. As mentioned earlier, we could check the data for adequacy using dates, which would probably remove some low-quality ladles.
+4. As mentioned earlier, we could check the data for adequacy using dates, which would probably remove some low-quality ladles.
     
