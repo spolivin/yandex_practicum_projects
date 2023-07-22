@@ -37,3 +37,84 @@ Among the most important steps that were used in the process of carrying out thi
 3. **Combining data and grid search**. These steps were necessary to optimize the model.
 
 In a nutshell, we can say that all stages of the work were viable, because each step carried a certain logic and utility, without which we would not have been able to find the optimal model with the appropriate quality.
+
+## Final model
+
+The final model that proved to be better than others under consideration is as follows:
+
+```
+{'standardscaler': StandardScaler(),
+ 'xgbregressor': XGBRegressor(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.13, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=4, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=60, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)}
+```
+
+In other words, the winning model is the gradient boost model from `xgboost` library with parameters specified above. It should be noted that since the model here basically represents a pipeline, the data are first scaled and then get fed into the model.
+
+We have managed to attain the following key metric score (*Mean Absolute Error*):
+
+```
+mae_test = 6.661
+```
+
+Were were able to achieve the required quality requirements and in this case the model predicts the final temperature with an error of about 6.6 degrees on average.
+
+## Training features
+
+The following features have been used when training the best model and generating predictions:
+
+1. `init_temp`
+2. `energy`
+3. `gas_1`
+4. `bulk_1`
+5. `bulk_2`
+6. `bulk_3`
+7. `bulk_4`
+8. `bulk_5`
+9. `bulk_6`
+10. `bulk_7`
+11. `bulk_8`
+12. `bulk_10`
+13. `bulk_11`
+14. `bulk_13`
+15. `bulk_15`
+16. `wire_2`
+17. `wire_3`
+18. `wire_4`
+19. `wire_6`
+20. `wire_7`
+21. `wire_8`
+22. `wire_9`
+
+In total the training process included 22 features which have been used for final model selection and subsequent testing. Notably, there are features that have already been present in the datasets as well as features we have managed to additionally create.
+
+## Hyperparameters
+
+The best model is a Gradient Boosting model from `xgboost` library with the following optimally chosen hyperparameters:
+
+```
+{'xgbregressor__n_estimators': 60,
+ 'xgbregressor__max_depth': 4,
+ 'xgbregressor__learning_rate': 0.13}
+```
+
+## Project improvement recommendations
+
+As far as the recommendations for improving the model are concerned, the following points should be noted:
+
+    1. It would be possible to try to exclude from the model the factors with the smallest scores in accordance with the calculated feature importances. The metric will not change much, but we will get rid of factors whose effects are not statistically significant.
+    
+    2. We could try to experiment further with the values of hyperparameters when searching through the grid. We can probably find better combinations. We can immediately increase the number of iterations of `n_iter` for `RandomizedSearchCV`.
+    
+    3. Since we are dealing with multicollinearity, we could also try lots of other models here, including neural networks (for example, `MLPRegressor` from `sklearn`).
+    
+    4. As mentioned earlier, we could check the data for adequacy using dates, which would probably remove some low-quality ladles.
+    
