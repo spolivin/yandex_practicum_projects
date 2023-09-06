@@ -34,7 +34,7 @@ The project folders are generally characterized by the following structure:
 | [Forecasting Taxi Orders](taxi_ts_prediction) | Developing a time-series model that is capable of forecasting hourly taxi orders to the airport.| `itertools` `matplotlib` `numpy` `pandas` `seaborn` `catboost` `IPython` `lightgbm` `sklearn` `statsmodels` `xgboost`|
 | [Transformers-based Sentiment Analysis[GPU]](bert_toxic_comm) | Classification of commentaries into positive and toxic ones using *BERT* language model along with *GPU* support.| `pprint` `matplotlib` `numpy` `pandas` `seaborn` `torch` `transformers` `catboost` `imblearn` `lightgbm` `sklearn` `tqdm` `xgboost`|
 | [CV-based People's Age Determination[GPU]](resnet_age) | Building a neural net model capable of determining a person's age based on their photos.| `os` `typing` `matplotlib` `numpy` `pandas` `seaborn` `IPython` `PIL` `tensorflow.keras`|
-| [Production Costs Optimization[Diploma project]](industry_temp_prediction) | Developing a prototype of an ML model that will predict a temperature of steel.| `os` `pprint` `typing` `matplotlib` `numpy` `pandas` `seaborn` `catboost` `IPython` `lightgbm` `sklearn` `xgboost`|
+| [Production Costs Optimization[Diploma project]](industry_temp_prediction) | Developing a prototype of an ML model that will predict a temperature of steel.| `os` `copy` `pprint` `joblib` `matplotlib` `numpy` `pandas` `seaborn` `catboost` `IPython` `lightgbm` `sklearn` `xgboost`|
 
 ## Syllabus
 
