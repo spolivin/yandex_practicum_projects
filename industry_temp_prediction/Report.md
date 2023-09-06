@@ -24,7 +24,7 @@ Furthermore, no less interesting problem was the combination of DataFrames into 
 
 Fourthly, the presence of multicollinearity in the data also created certain problems, because ignoring this problem would lead not only to inaccurate and inconsistent results of building a regression model, but also to a decrease in the speed of calculations. This problem was solved with the help of correlation matrices heatmaps, which helped us to get rid of other regressors and reduce the degree of multicollinearity between independent variables.
 
-Perhaps, the last and the main problem that arose during the implementation of the project was to achieve the required level of model quality, expressed by the *MAE* metric at 6.8 degrees. In the first version of the search for optimal models using *grid search*, it was not possible to achieve the required level of quality, which always varied within the approximate range of 6.80-7.02. The problem was solved by redefining the values of variable hyperparameters, as well as increasing the number of `n_iter` combinations selected by the `RandomizedSearchCV` algorithm from 5 to 15. In the case of hyperparameters, we, in particular, reduced the number of trees, as well as their depth, which led to a slightly higher degree of the *generalization power*. By increasing the number of iterations, we simply increased the number of paths to consider and, as a result, we were able to find the optimal combination of hyperparameters.
+Perhaps, the last and the main problem that arose during the implementation of the project was to achieve the required level of model quality, expressed by the *MAE* metric at 6.8 degrees. In the first version of the search for optimal models using *grid search*, it was not possible to achieve the required level of quality, which always varied within the approximate range of 6.80-7.02. The problem was solved by redefining the values of variable hyperparameters, as well as increasing the number of `n_iter` combinations selected by the `RandomizedSearchCV` algorithm from 5 to 15 to 100. In the case of hyperparameters, we, in particular, reduced the number of trees, as well as their depth, which led to a slightly higher degree of the *generalization power*. By increasing the number of iterations, we simply increased the number of paths to consider and, as a result, we were able to find the optimal combination of hyperparameters.
 
 ## Key steps of the project assignment
 
@@ -40,55 +40,38 @@ In a nutshell, we can say that all stages of the work were viable, because each 
 
 ## Final model
 
-The final model that proved to be better than others under consideration is as follows:
-
-```
-{'standardscaler': StandardScaler(),
- 'xgbregressor': XGBRegressor(base_score=None, booster=None, callbacks=None,
-              colsample_bylevel=None, colsample_bynode=None,
-              colsample_bytree=None, early_stopping_rounds=None,
-              enable_categorical=False, eval_metric=None, feature_types=None,
-              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
-              interaction_constraints=None, learning_rate=0.13, max_bin=None,
-              max_cat_threshold=None, max_cat_to_onehot=None,
-              max_delta_step=None, max_depth=4, max_leaves=None,
-              min_child_weight=None, missing=nan, monotone_constraints=None,
-              n_estimators=60, n_jobs=None, num_parallel_tree=None,
-              predictor=None, random_state=None, ...)}
-```
-
-In other words, the winning model is the gradient boost model from `xgboost` library with parameters specified above. It should be noted that since the model here basically represents a pipeline, the data are first scaled and then get fed into the model.
+The winning model is the gradient boost model from `catboost` library. It should be noted that since the model here basically represents a pipeline, the data are first scaled and then get fed into the model.
 
 We have managed to attain the following key metric score (*Mean Absolute Error*):
 
 ```
-mae_test = 6.661
+mae_test = 6.68
 ```
 
-Were were able to achieve the required quality requirements and in this case the model predicts the final temperature with an error of about 6.6 degrees on average.
+Were were able to achieve the required quality requirements and in this case the model predicts the final temperature with an error of about 6.7 degrees on average.
 
 ## Training features
 
 The following features have been used when training the best model and generating predictions:
 
 1. `init_temp`
-2. `energy`
+2. `work`
 3. `gas_1`
 4. `bulk_1`
-5. `bulk_2`
-6. `bulk_3`
-7. `bulk_4`
-8. `bulk_5`
-9. `bulk_6`
-10. `bulk_7`
-11. `bulk_8`
-12. `bulk_10`
-13. `bulk_11`
+5. `bulk_3`
+6. `bulk_4`
+7. `bulk_5`
+8. `bulk_6`
+9. `bulk_7`
+10. `bulk_8`
+11. `bulk_10`
+12. `bulk_11`
+13. `bulk_12`
 14. `bulk_13`
-15. `bulk_15`
-16. `wire_2`
-17. `wire_3`
-18. `wire_4`
+15. `bulk_14`
+16. `wire_1`
+17. `wire_2`
+18. `wire_3`
 19. `wire_6`
 20. `wire_7`
 21. `wire_8`
@@ -98,12 +81,12 @@ In total the training process included 22 features which have been used for fina
 
 ## Hyperparameters
 
-The best model is a Gradient Boosting model from `xgboost` library with the following optimally chosen hyperparameters:
+The best model is a Gradient Boosting model from `catboost` library with the following optimally chosen hyperparameters:
 
 ```
-{'xgbregressor__n_estimators': 60,
- 'xgbregressor__max_depth': 4,
- 'xgbregressor__learning_rate': 0.13}
+{'n_estimators': 60,
+ 'max_depth': 4,
+ 'learning_rate': 0.23}
 ```
 
 ## Project improvement recommendations
@@ -111,10 +94,9 @@ The best model is a Gradient Boosting model from `xgboost` library with the foll
 As far as the recommendations for improving the model are concerned, the following points should be noted:
 
 1. It would be possible to try to exclude from the model the factors with the smallest scores in accordance with the calculated feature importances. The metric will not change much, but we will get rid of factors whose effects are not statistically significant.
-    
+
 2. We could try to experiment further with the values of hyperparameters when searching through the grid. We can probably find better combinations. We can immediately increase the number of iterations of `n_iter` for `RandomizedSearchCV`.
-    
+
 3. Since we are dealing with multicollinearity, we could also try lots of other models here, including neural networks (for example, `MLPRegressor` from `sklearn`).
-    
+
 4. As mentioned earlier, we could check the data for adequacy using dates, which would probably remove some low-quality ladles.
-    
